@@ -174,17 +174,17 @@
     </div>
 
     <!--main article of the day-->
-    <div class="container" id="main-article-container">
-        <article class="main-article">
-            <div class="col col-xs-12 col1-main-article">
+    <div class="container">
+        <article class="daily-news-article">
+            <div class="col col-xs-12 col1-article">
                 <div>
-                    <a href="#" id="title-main-article">Lorem ipsum dolor sit amet</a>
+                    <a href="#" class="title-article">Lorem ipsum dolor sit amet</a>
                 </div>
                 <div>
-                    <a href="#" id="main-article-preview">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</a>
+                    <a href="#" class="article-preview">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</a>
                 </div>
                 <div>
-                    <ul class="main-article-content-list">
+                    <ul class="article-content-list">
                         <li><a href="#">Lorem ipsum dolor sit amet</a></li>
                         <li><a href="#">Lorem ipsum dolor sit amet</a></li>
                         <li><a href="#">Lorem ipsum dolor sit amet</a></li>
@@ -193,15 +193,542 @@
                     </ul>
                 </div>
             </div>
-            <div class="col col-xs-12 col2-main-article">
-                <a href="#" id="image-main-article" ><img src="images/giornalista.jpg" class="img-fluid"></a>
+            <div class="col col-xs-12 col2-article">
+                <a href="#"><img src="images/giornalista.jpg" class="img-fluid"></a>
             </div>
         </article>
         <hr>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!--other daily news-->
+    <div class="container">
+        <div class="row" id="daily-news-row">
+            <div class="col col-12 col-lg-9"> <!--occupa l'intero spazio solo se lo schermo è sotto i 992px-->
+                <article class="daily-news-article">
+                    <div class="col col-xs-12">
+                        <div>
+                            <a href="#" class="title-article">Lorem ipsum dolor sit amet</a>
+                        </div>
+                        <div>
+                            <a href="#" class="article-preview">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</a>
+                        </div>
+                        <div>
+                            <ul class="article-content-list">
+                                <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                                <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                                <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col col-xs-12">
+                        <a href="#" ><img src="images/giornalista.jpg" class="img-fluid"></a>
+                    </div>
+                </article>
+                <hr>
+                <article class="daily-news-article">
+                    <div class="col col-xs-12">
+                        <div>
+                            <a href="#" class="title-article">Lorem ipsum dolor sit amet</a>
+                        </div>
+                        <div>
+                            <a href="#" class="article-preview">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</a>
+                        </div>
+                        <div>
+                            <ul class="article-content-list">
+                                <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col col-xs-12">
+                        <a href="#" ><img src="images/giornalista.jpg" class="img-fluid"></a>
+                    </div>
+                </article>
+                <hr>
+                <article class="daily-news-article">
+                    <div class="col col-xs-12">
+                        <div>
+                            <a href="#" class="title-article">Lorem ipsum dolor sit amet</a>
+                        </div>
+                        <div>
+                            <a href="#" class="article-preview">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</a>
+                        </div>
+                        <div>
+                            <ul class="article-content-list">
+                                <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                                <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                                <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                                <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                                <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col col-xs-12">
+                        <a href="#" ><img src="images/giornalista.jpg" class="img-fluid"></a>
+                    </div>
+                </article>
+                <hr>
+                <article class="daily-news-article">
+                    <div class="col col-xs-12">
+                        <div>
+                            <a href="#" class="title-article">Lorem ipsum dolor sit amet</a>
+                        </div>
+                        <div>
+                            <a href="#" class="article-preview">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</a>
+                        </div>
+                        <div>
+                            <ul class="article-content-list">
+                                <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                                <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                                <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col col-xs-12">
+                        <a href="#" ><img src="images/giornalista.jpg" class="img-fluid"></a>
+                    </div>
+                </article>
+                <hr>
+                <article class="podcast-article">
+                    <a href="#"><img src="images/podcast.jpeg" id="podcast-img"></a>
+                    <div class="podcast-caption"><a href="#"><i class="bi bi-play-circle-fill"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</a></div>
+                </article>
+                <hr>
+                <article class="quote-article">
+                    <div class="row">
+                        <a href="#" id="quote-title">Virgolette</a>
+                        <a href="#" id="quote">«Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua»</a>
+                        <a href="#" id="quote-author">Marcus Tullius Cicero in "De finibus bonorum et malorum"</a>
+                    </div>
+
+                </article>
+                <hr>
+                <article class="daily-news-article">
+                    <div class="col col-xs-12">
+                        <div>
+                            <a href="#" class="title-article">Lorem ipsum dolor sit amet</a>
+                        </div>
+                        <div>
+                            <a href="#" class="article-preview">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</a>
+                        </div>
+                        <div>
+                            <ul class="article-content-list">
+                                <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                                <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col col-xs-12">
+                        <a href="#" ><img src="images/giornalista.jpg" class="img-fluid"></a>
+                    </div>
+                </article>
+                <hr>
+                <article class="daily-news-article">
+                    <div class="col col-xs-12">
+                        <div>
+                            <a href="#" class="title-article">Lorem ipsum dolor sit amet</a>
+                        </div>
+                        <div>
+                            <a href="#" class="article-preview">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</a>
+                        </div>
+                        <div>
+                            <ul class="article-content-list">
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col col-xs-12">
+                        <a href="#" ><img src="images/giornalista.jpg" class="img-fluid"></a>
+                    </div>
+                </article>
+                <hr>
+                <article class="daily-news-article">
+                    <div class="col col-xs-12">
+                        <div>
+                            <a href="#" class="title-article">Lorem ipsum dolor sit amet</a>
+                        </div>
+                        <div>
+                            <a href="#" class="article-preview">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</a>
+                        </div>
+                        <div>
+                            <ul class="article-content-list">
+                                <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                                <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col col-xs-12">
+                        <a href="#" ><img src="images/giornalista.jpg" class="img-fluid"></a>
+                    </div>
+                </article>
+                <hr>
+                <article class="daily-news-article">
+                    <div class="col col-xs-12">
+                        <div>
+                            <a href="#" class="title-article">Lorem ipsum dolor sit amet</a>
+                        </div>
+                        <div>
+                            <a href="#" class="article-preview">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</a>
+                        </div>
+                        <div>
+                            <ul class="article-content-list">
+                                <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                                <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                                <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                                <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                                <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col col-xs-12">
+                        <a href="#" ><img src="images/giornalista.jpg" class="img-fluid"></a>
+                    </div>
+                </article>
+                <hr>
+                <article class="daily-news-article">
+                    <div class="col col-xs-12">
+                        <div>
+                            <a href="#" class="title-article">Lorem ipsum dolor sit amet</a>
+                        </div>
+                        <div>
+                            <a href="#" class="article-preview">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</a>
+                        </div>
+                        <div>
+                            <ul class="article-content-list">
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col col-xs-12">
+                        <a href="#" ><img src="images/giornalista.jpg" class="img-fluid"></a>
+                    </div>
+                </article>
+                <hr>
+                <article class="daily-news-article">
+                    <div class="col col-xs-12">
+                        <div>
+                            <a href="#" class="title-article">Lorem ipsum dolor sit amet</a>
+                        </div>
+                        <div>
+                            <a href="#" class="article-preview">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</a>
+                        </div>
+                        <div>
+                            <ul class="article-content-list">
+                                <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                                <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                                <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col col-xs-12">
+                        <a href="#" ><img src="images/giornalista.jpg" class="img-fluid"></a>
+                    </div>
+                </article>
+                <hr>
+                <article class="daily-news-article">
+                    <div class="col col-xs-12">
+                        <div>
+                            <a href="#" class="title-article">Lorem ipsum dolor sit amet</a>
+                        </div>
+                        <div>
+                            <a href="#" class="article-preview">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</a>
+                        </div>
+                        <div>
+                            <ul class="article-content-list">
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col col-xs-12">
+                        <a href="#" ><img src="images/giornalista.jpg" class="img-fluid"></a>
+                    </div>
+                </article>
+                <hr>
+                <article class="daily-news-article">
+                    <div class="col col-xs-12">
+                        <div>
+                            <a href="#" class="title-article">Lorem ipsum dolor sit amet</a>
+                        </div>
+                        <div>
+                            <a href="#" class="article-preview">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</a>
+                        </div>
+                        <div>
+                            <ul class="article-content-list">
+                                <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                                <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col col-xs-12">
+                        <a href="#" ><img src="images/giornalista.jpg" class="img-fluid"></a>
+                    </div>
+                </article>
+                <hr>
+            </div>
+            <aside class="col col-12 col-lg-3 side-news"> <!--occupa l'intero spazio solo se lo schermo è sotto i 992px-->
+                <div class="container side-news-container">
+                    <div class="row side-news-title">
+                        <a href="#">IN EVIDENZA</a>
+                    </div>
+                    <div class="row row-cols-2 side-news-row"> <!-- row-cols-2 serve per impostare le notizie su due colonne quando lo schermo diventa piccolo-->
+                        <article class="col side-article">
+                            <div class="col">
+                                <a href="#">Lorem ipsum dolor sit amet</a>
+                            </div>
+                            <div class="col">
+                                <img src="images/giornalista.jpg" class="img-fluid">
+                            </div>
+                        </article>
+
+                        <article class="col side-article">
+                            <div class="col">
+                                <a href="#">Lorem ipsum dolor sit amet</a>
+                            </div>
+                            <div class="col">
+                                <img src="images/giornalista.jpg" class="img-fluid">
+                            </div>
+                        </article>
+
+                        <article class="col side-article">
+                            <div class="col">
+                                <a href="#">Lorem ipsum dolor sit amet</a>
+                            </div>
+                            <div class="col">
+                                <img src="images/giornalista.jpg" class="img-fluid">
+                            </div>
+                        </article>
+
+                        <article class="col side-article">
+                            <div class="col">
+                                <a href="#">Lorem ipsum dolor sit amet</a>
+                            </div>
+                            <div class="col">
+                                <img src="images/giornalista.jpg" class="img-fluid">
+                            </div>
+
+                        </article>
+
+                        <article class="col side-article">
+                            <div class="col">
+                                <a href="#">Lorem ipsum dolor sit amet</a>
+                            </div>
+                            <div class="col">
+                                <img src="images/giornalista.jpg" class="img-fluid">
+                            </div>
+                        </article>
+
+                        <article class="col side-article">
+                            <div class="col">
+                                <a href="#">Lorem ipsum dolor sit amet</a>
+                            </div>
+                            <div class="col">
+                                <img src="images/giornalista.jpg" class="img-fluid">
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="container side-news-container">
+                    <div class="row side-news-title">
+                        <a href="#">FLASHES</a>
+                    </div>
+                    <div class="row row-cols-2 side-news-row"> <!-- row-cols-2 serve per impostare le notizie su due colonne quando lo schermo diventa piccolo-->
+                        <article class="col side-article">
+                            <div class="col">
+                                <a href="#">Lorem ipsum dolor sit amet</a>
+                            </div>
+                            <div class="col">
+                                <img src="images/giornalista.jpg" class="img-fluid">
+                            </div>
+                        </article>
+
+                        <article class="col side-article">
+                            <div class="col">
+                                <a href="#">Lorem ipsum dolor sit amet</a>
+                            </div>
+                            <div class="col">
+                                <img src="images/giornalista.jpg" class="img-fluid">
+                            </div>
+                        </article>
+
+                        <article class="col side-article">
+                            <div class="col">
+                                <a href="#">Lorem ipsum dolor sit amet</a>
+                            </div>
+                            <div class="col">
+                                <img src="images/giornalista.jpg" class="img-fluid">
+                            </div>
+                        </article>
+
+                        <article class="col side-article">
+                            <div class="col">
+                                <a href="#">Lorem ipsum dolor sit amet</a>
+                            </div>
+                            <div class="col">
+                                <img src="images/giornalista.jpg" class="img-fluid">
+                            </div>
+
+                        </article>
+
+                        <article class="col side-article">
+                            <div class="col">
+                                <a href="#">Lorem ipsum dolor sit amet</a>
+                            </div>
+                            <div class="col">
+                                <img src="images/giornalista.jpg" class="img-fluid">
+                            </div>
+                        </article>
+
+                        <article class="col side-article">
+                            <div class="col">
+                                <a href="#">Lorem ipsum dolor sit amet</a>
+                            </div>
+                            <div class="col">
+                                <img src="images/giornalista.jpg" class="img-fluid">
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="container side-news-container">
+                    <div class="row side-news-title">
+                        <a href="#">PODCAST</a>
+                    </div>
+                    <figure>
+                        <img src="images/podcast-news.jpeg" class="img-fluid" id="podcast-news-image">
+                        <figcaption>
+                            <article class="podcast-news-article">
+                                <div class="col">
+                                    <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a>
+                                </div>
+                            </article>
+                        </figcaption>
+                    </figure>
+                    <hr>
+                    <div class="row podcast-news-row">
+                        <article class="podcast-news-article">
+                            <div class="col">
+                                <a href="#">Lorem ipsum dolor sit amet</a>
+                            </div>
+                            <div class="col col-auto">
+                                <a href="#"><img src="images/giornalista.jpg"></a>
+                            </div>
+                        </article>
+                    </div>
+                    <hr>
+                    <div class="row podcast-news-row">
+                        <article class="podcast-news-article">
+                            <div class="col">
+                                <a href="#">Lorem ipsum dolor sit amet</a>
+                            </div>
+                            <div class="col col-auto">
+                                <a href="#"><img src="images/giornalista.jpg"></a>
+                            </div>
+                        </article>
+                    </div>
+                    <hr>
+                    <div class="row podcast-news-row">
+                        <article class="podcast-news-article">
+                            <div class="col">
+                                <a href="#">Lorem ipsum dolor sit amet</a>
+                            </div>
+                            <div class="col col-auto">
+                                <a href="#"><img src="images/giornalista.jpg"></a>
+                            </div>
+                        </article>
+                    </div>
+                    <hr>
+                    <div class="row podcast-news-row">
+                        <article class="podcast-news-article">
+                            <div class="col">
+                                <a href="#">Lorem ipsum dolor sit amet</a>
+                            </div>
+                            <div class="col col-auto">
+                                <a href="#"><img src="images/giornalista.jpg"></a>
+                            </div>
+                        </article>
+                    </div>
+                    <hr>
+                    <div class="row podcast-news-row">
+                        <article class="podcast-news-article">
+                            <div class="col">
+                                <a href="#">Lorem ipsum dolor sit amet</a>
+                            </div>
+                            <div class="col col-auto">
+                                <a href="#"><img src="images/giornalista.jpg"></a>
+                            </div>
+                        </article>
+                    </div>
+                    <hr>
+                    <div class="row podcast-news-row">
+                        <article class="podcast-news-article">
+                            <div class="col">
+                                <a href="#">Lorem ipsum dolor sit amet</a>
+                            </div>
+                            <div class="col col-auto">
+                                <a href="#"><img src="images/giornalista.jpg"></a>
+                            </div>
+                        </article>
+                    </div>
+                    <hr>
+                    <div class="row podcast-news-row">
+                        <article class="podcast-news-article">
+                            <div class="col">
+                                <a href="#">Lorem ipsum dolor sit amet</a>
+                            </div>
+                            <div class="col col-auto">
+                                <a href="#"><img src="images/giornalista.jpg"></a>
+                            </div>
+                        </article>
+                    </div>
+                    <hr>
+                    <div class="row podcast-news-row">
+                        <article class="podcast-news-article">
+                            <div class="col">
+                                <a href="#">Lorem ipsum dolor sit amet</a>
+                            </div>
+                            <div class="col col-auto">
+                                <a href="#"><img src="images/giornalista.jpg"></a>
+                            </div>
+                        </article>
+                    </div>
+                    <hr>
+                    <div class="row podcast-news-row">
+                        <article class="podcast-news-article">
+                            <div class="col">
+                                <a href="#">Lorem ipsum dolor sit amet</a>
+                            </div>
+                            <div class="col col-auto">
+                                <a href="#"><img src="images/giornalista.jpg"></a>
+                            </div>
+                        </article>
+                    </div>
+                    <hr>
+                    <div class="row podcast-news-row">
+                        <article class="podcast-news-article">
+                            <div class="col">
+                                <a href="#">Lorem ipsum dolor sit amet</a>
+                            </div>
+                            <div class="col col-auto">
+                                <a href="#"><img src="images/giornalista.jpg"></a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="container side-news-container">
+                    <div class="row side-news-title">
+                        <a href="#">BLOG</a>
+                    </div>
+                    <div class="row" id="blog-news">
+                        <div class="row"><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</a></div>
+                        <hr>
+                        <div class="row"><a href="#">Lorem ipsum dolor sit amet</a></div>
+                        <hr>
+                        <div class="row"><a href="#">Lorem ipsum dolor sit amet</a></div>
+                        <hr>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-</body>
 </html>
