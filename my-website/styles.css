@@ -32,15 +32,23 @@ figure {
 }
 
 header {
-  margin: auto;
+  position: fixed;
+  background-color: white;
+  width: 100vw;
+  justify-content: center;
+  top: 0;
+  z-index: 9999;
+}
+
+body {
+  padding-top: 150px;
+}
+
+header > .container {
   max-width: 1320px;
 }
 
-.navbar-expand-lg {
-  margin:auto;
-}
-
-header > .row {
+header > .container > .row {
   margin: 0;
   padding: 0;
 }
@@ -61,7 +69,7 @@ header > .row {
 
 .dropdown-menu {
   width: 300px;
-  position: absolute;
+  height: 95vh;
   overflow-y: auto;
 }
 
@@ -322,9 +330,8 @@ article > .row {
   #footer-col1, #footer-col2, #footer-col3 {
     text-align: center;
   }
-  #podcast-news-image {
-    max-height: 500px;
-    width: 100vw;
+  body {
+    padding-top: 75px;
   }
 }
 
