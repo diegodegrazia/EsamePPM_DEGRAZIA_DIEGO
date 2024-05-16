@@ -291,6 +291,7 @@ article > .row {
   margin: 0;
   display: inline-flex;
   gap: 12px;
+  padding: 0;
 }
 
 #footer-col2 {
@@ -333,6 +334,9 @@ article > .row {
   body {
     padding-top: 75px;
   }
+  .side-article {
+    width: 50%;
+  }
 }
 
 @media (max-width: 576px) {
@@ -341,14 +345,10 @@ article > .row {
   }
 }
 
-@media (max-width: 768px) {
-  .side-article {
-    max-width: 250px;
-  }
-}
 
 @media (min-width: 768px) {
   .popup-hr {
     display: none;
   }
 }
+
